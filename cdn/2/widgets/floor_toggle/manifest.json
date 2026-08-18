@@ -1,0 +1,21 @@
+{
+  "name": "floor_toggle",
+  "type": "widget",
+  "version": "1.20.0",
+  "exbVersion": "1.20.0",
+  "author": "Your Name",
+  "description": "Toggles between floor plan layers",
+  "copyright": "",
+  "license": "",
+  "properties": {
+    "hasSettingPage": true,
+    "hasConfig": false
+  },
+  "translatedLocales": [
+    "en"
+  ],
+  "defaultSize": {
+    "width": 800,
+    "height": 500
+  }
+}
