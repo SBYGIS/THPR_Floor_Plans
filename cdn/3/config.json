@@ -1,0 +1,806 @@
+{
+  "pages": {
+    "page_0": {
+      "id": "page_0",
+      "mode": "FIT_WINDOW",
+      "type": "NORMAL",
+      "layout": {
+        "LARGE": "layout_0",
+        "SMALL": "layout_5",
+        "MEDIUM": "layout_8"
+      },
+      "isDefault": true,
+      "isVisible": true,
+      "label": "Page",
+      "header": false
+    }
+  },
+  "layouts": {
+    "layout_0": {
+      "type": "FIXED",
+      "content": {
+        "0": {
+          "type": "WIDGET",
+          "widgetId": "widget_1",
+          "bbox": {
+            "left": "17.5%",
+            "right": "0.0%",
+            "top": "0.0%",
+            "bottom": "0.0%",
+            "width": "82.5%",
+            "height": "100.0%"
+          },
+          "setting": {
+            "autoProps": {
+              "right": false,
+              "left": true,
+              "top": true,
+              "bottom": false
+            },
+            "vCenter": false,
+            "hCenter": false
+          }
+        },
+        "1": {
+          "type": "WIDGET",
+          "widgetId": "widget_4",
+          "bbox": {
+            "left": "0.0%",
+            "right": "82.5%",
+            "top": "0.0%",
+            "bottom": "0.0%",
+            "width": "17.5%",
+            "height": "100.0%"
+          },
+          "setting": {
+            "autoProps": {
+              "left": false,
+              "right": true,
+              "top": false,
+              "bottom": false,
+              "height": "STRETCH"
+            },
+            "vCenter": false,
+            "hCenter": false
+          }
+        }
+      },
+      "order": [
+        "0",
+        "1"
+      ]
+    },
+    "layout_1": {
+      "content": {},
+      "type": "FIXED",
+      "label": "Map FixedLayout",
+      "order": []
+    },
+    "layout_2": {
+      "content": {
+        "0": {
+          "type": "WIDGET",
+          "widgetId": "widget_2",
+          "bbox": {
+            "width": "312px",
+            "height": "611px"
+          },
+          "setting": {
+            "autoProps": {
+              "height": "AUTO"
+            }
+          }
+        },
+        "2": {
+          "type": "WIDGET",
+          "widgetId": "widget_9",
+          "bbox": {
+            "width": "356px",
+            "height": "44px"
+          },
+          "setting": {
+            "autoProps": {
+              "height": "AUTO"
+            }
+          }
+        }
+      },
+      "type": "COLUMN",
+      "label": "Default",
+      "order": [
+        "2",
+        "0"
+      ],
+      "setting": {
+        "justifyContent": "flex-start",
+        "padding": {
+          "number": [
+            20,
+            10,
+            0,
+            10
+          ],
+          "unit": "px"
+        },
+        "space": 0
+      }
+    },
+    "layout_3": {
+      "content": {},
+      "type": "FIXED",
+      "setting": {
+        "lockDescendants": true
+      },
+      "order": []
+    },
+    "layout_5": {
+      "type": "FIXED",
+      "content": {
+        "1": {
+          "type": "WIDGET",
+          "widgetId": "widget_10",
+          "bbox": {
+            "left": "0.0%",
+            "right": "0.0%",
+            "top": "-0.1%",
+            "bottom": "17.0%",
+            "width": "100.0%",
+            "height": "83.1%"
+          },
+          "setting": {
+            "autoProps": {
+              "left": false,
+              "right": false,
+              "top": true,
+              "bottom": false,
+              "height": "AUTO",
+              "width": "STRETCH"
+            },
+            "vCenter": false,
+            "hCenter": false
+          }
+        },
+        "3": {
+          "type": "WIDGET",
+          "widgetId": "widget_1",
+          "bbox": {
+            "left": "0%",
+            "right": "0%",
+            "top": "0%",
+            "bottom": "0%",
+            "width": "100%",
+            "height": "100%"
+          },
+          "setting": {
+            "autoProps": {
+              "right": false,
+              "left": false,
+              "top": false,
+              "bottom": false,
+              "height": "STRETCH",
+              "width": "STRETCH"
+            },
+            "vCenter": false,
+            "hCenter": false
+          }
+        }
+      },
+      "order": [
+        "1",
+        "3"
+      ]
+    },
+    "layout_6": {
+      "content": {
+        "0": {
+          "type": "WIDGET",
+          "widgetId": "widget_2",
+          "bbox": {
+            "left": "0.0%",
+            "right": "80.6%",
+            "top": "49.2%",
+            "bottom": "0.0%",
+            "width": "19.4%",
+            "height": "50.8%"
+          },
+          "setting": {
+            "autoProps": {
+              "right": true,
+              "left": false,
+              "top": true,
+              "bottom": false,
+              "width": "CUSTOM",
+              "height": "AUTO"
+            },
+            "vCenter": false,
+            "hCenter": false
+          }
+        },
+        "1": {
+          "type": "WIDGET",
+          "widgetId": "widget_11",
+          "bbox": {
+            "left": "0%",
+            "right": "33.8%",
+            "top": "2.7%",
+            "bottom": "92.4%",
+            "width": "66.3%",
+            "height": "4.9%"
+          },
+          "setting": {
+            "autoProps": {
+              "right": true,
+              "left": false,
+              "top": false,
+              "bottom": true,
+              "width": "AUTO",
+              "height": "AUTO"
+            },
+            "vCenter": false,
+            "hCenter": false
+          }
+        }
+      },
+      "type": "FIXED",
+      "label": "Map FixedLayout",
+      "order": [
+        "0",
+        "1"
+      ]
+    },
+    "layout_7": {
+      "content": {
+        "2": {
+          "type": "WIDGET",
+          "widgetId": "widget_9",
+          "bbox": {
+            "width": "356px",
+            "height": "44px"
+          },
+          "setting": {
+            "autoProps": {
+              "height": "AUTO"
+            }
+          },
+          "isPending": true
+        }
+      },
+      "type": "COLUMN",
+      "label": "Default",
+      "order": [
+        "2"
+      ],
+      "setting": {
+        "justifyContent": "center"
+      }
+    },
+    "layout_8": {
+      "type": "FIXED",
+      "content": {
+        "0": {
+          "type": "WIDGET",
+          "widgetId": "widget_1",
+          "bbox": {
+            "left": "0%",
+            "right": "0%",
+            "top": "0%",
+            "bottom": "0%",
+            "width": "100%",
+            "height": "100%"
+          },
+          "setting": {
+            "autoProps": {
+              "right": false,
+              "left": false,
+              "top": false,
+              "bottom": false,
+              "height": "STRETCH",
+              "width": "STRETCH"
+            },
+            "vCenter": false,
+            "hCenter": false
+          }
+        }
+      },
+      "order": [
+        "0"
+      ]
+    },
+    "layout_9": {
+      "content": {
+        "0": {
+          "type": "WIDGET",
+          "widgetId": "widget_2",
+          "bbox": {
+            "left": "0.0%",
+            "right": "88.4%",
+            "top": "61.6%",
+            "bottom": "1.7%",
+            "width": "11.6%",
+            "height": "36.7%"
+          },
+          "setting": {
+            "autoProps": {
+              "left": false,
+              "right": true,
+              "top": true,
+              "bottom": false
+            },
+            "vCenter": false,
+            "hCenter": false
+          }
+        },
+        "1": {
+          "type": "WIDGET",
+          "widgetId": "widget_9",
+          "bbox": {
+            "left": "10.0%",
+            "right": "39.8%",
+            "top": "3.9%",
+            "bottom": "91.6%",
+            "width": "50.2%",
+            "height": "4.5%"
+          },
+          "setting": {
+            "autoProps": {
+              "left": false,
+              "right": true,
+              "top": false,
+              "bottom": true,
+              "width": "AUTO"
+            }
+          },
+          "isPending": true
+        },
+        "2": {
+          "type": "WIDGET",
+          "widgetId": "widget_13",
+          "bbox": {
+            "left": "0.1%",
+            "right": "58.5%",
+            "top": "3.5%",
+            "bottom": "92.0%",
+            "width": "41.4%",
+            "height": "4.5%"
+          },
+          "setting": {
+            "autoProps": {
+              "left": false,
+              "right": true,
+              "top": false,
+              "bottom": true,
+              "width": "AUTO"
+            },
+            "vCenter": false,
+            "hCenter": false
+          }
+        }
+      },
+      "type": "FIXED",
+      "label": "Map FixedLayout",
+      "order": [
+        "0",
+        "1",
+        "2"
+      ]
+    }
+  },
+  "exbVersion": "1.20.0",
+  "mainSizeMode": "LARGE",
+  "theme": "themes/master/",
+  "forBuilderAttributes": {
+    "lockLayout": false,
+    "viewPortSize": {
+      "MEDIUM": {
+        "width": 768,
+        "height": 1024
+      },
+      "SMALL": {
+        "width": 360,
+        "height": 740
+      },
+      "LARGE": {
+        "width": 1280,
+        "height": 1024
+      }
+    }
+  },
+  "template": "blankfullscreen",
+  "widgets": {
+    "widget_1": {
+      "uri": "widgets/arcgis/arcgis-map/",
+      "version": "1.20.0",
+      "label": "Map",
+      "config": {
+        "toolConfig": {
+          "canZoom": true,
+          "canHome": true,
+          "canSearch": false,
+          "canNavigation": true,
+          "canScaleBar": false,
+          "canExtentNavigate": false,
+          "canOverviewMap": true,
+          "canMeasure": false,
+          "canLocate": true
+        },
+        "isUseCustomMapState": true,
+        "initialMapDataSourceID": "dataSource_1",
+        "initialMapState": {
+          "viewPoint": {
+            "rotation": 201.7419838159818,
+            "scale": 2256.9943525,
+            "targetGeometry": {
+              "spatialReference": {
+                "latestWkid": 3857,
+                "wkid": 102100
+              },
+              "x": -8415585.421505898,
+              "y": 4630684.053083821
+            }
+          },
+          "extent": {
+            "spatialReference": {
+              "latestWkid": 3857,
+              "wkid": 102100
+            },
+            "xmin": -8415722.172126804,
+            "ymin": 4630501.619395234,
+            "xmax": -8415448.670884993,
+            "ymax": 4630866.486772409
+          },
+          "rotation": 201.7419838159818,
+          "viewType": "2d"
+        },
+        "scaleRange": null,
+        "customLODs": null,
+        "toolOptions": {
+          "OverviewMap": {
+            "position": "top-right",
+            "initiallyExpand": true
+          }
+        },
+        "layoutIndex": "custom-layout",
+        "preLayoutIndex": 1,
+        "customLayoutPlacement": {
+          "leftTop": {
+            "isCornerHorizontal": true,
+            "cornerGroupChildren": [],
+            "horizontalGroupChildren": [],
+            "verticalGroupChildren": []
+          },
+          "rightTop": {
+            "isCornerHorizontal": true,
+            "cornerGroupChildren": [
+              "ClearActionData"
+            ],
+            "horizontalGroupChildren": [],
+            "verticalGroupChildren": []
+          },
+          "rightBottom": {
+            "isCornerHorizontal": true,
+            "cornerGroupChildren": [
+              "Home"
+            ],
+            "horizontalGroupChildren": [],
+            "verticalGroupChildren": [
+              "Zoom",
+              "Locate",
+              "Navigation"
+            ]
+          },
+          "leftBottom": {
+            "isCornerHorizontal": false,
+            "cornerGroupChildren": [],
+            "horizontalGroupChildren": [],
+            "verticalGroupChildren": []
+          }
+        }
+      },
+      "id": "widget_1",
+      "layouts": {
+        "MapFixedLayout": {
+          "LARGE": "layout_1",
+          "SMALL": "layout_6",
+          "MEDIUM": "layout_9"
+        }
+      },
+      "dataActions": {
+        "showOnMap": {
+          "config": {
+            "isUseCustomSymbol": true,
+            "isOperationalLayer": true,
+            "symbolOption": {
+              "pointSymbol": {
+                "type": "esriSMS",
+                "color": [
+                  255,
+                  255,
+                  0,
+                  150
+                ],
+                "angle": 0,
+                "xoffset": 0,
+                "yoffset": 0,
+                "size": 12,
+                "style": "esriSMSCircle",
+                "outline": {
+                  "type": "esriSLS",
+                  "color": [
+                    255,
+                    255,
+                    0,
+                    150
+                  ],
+                  "width": 1,
+                  "style": "esriSLSSolid"
+                }
+              },
+              "polylineSymbol": {
+                "type": "esriSLS",
+                "color": [
+                  255,
+                  255,
+                  0,
+                  150
+                ],
+                "width": 0.75,
+                "style": "esriSLSSolid"
+              },
+              "polygonSymbol": {
+                "type": "esriSFS",
+                "color": [
+                  255,
+                  255,
+                  0,
+                  150
+                ],
+                "outline": {
+                  "type": "esriSLS",
+                  "color": [
+                    255,
+                    255,
+                    0,
+                    150
+                  ],
+                  "width": 1,
+                  "style": "esriSLSSolid"
+                },
+                "style": "esriSFSSolid"
+              }
+            }
+          }
+        }
+      },
+      "useDataSources": [
+        {
+          "dataSourceId": "dataSource_1",
+          "mainDataSourceId": "dataSource_1"
+        }
+      ]
+    },
+    "widget_2": {
+      "uri": "widgets/floor_toggle/",
+      "version": "1.20.0",
+      "config": null,
+      "id": "widget_2",
+      "style": {
+        "background": {
+          "color": "",
+          "fillType": "fill",
+          "image": {
+            "url": ""
+          }
+        }
+      }
+    },
+    "widget_4": {
+      "uri": "widgets/layout/column/",
+      "version": "1.20.0",
+      "label": "Column",
+      "config": {
+        "space": {
+          "distance": 0,
+          "unit": "px"
+        },
+        "style": {
+          "padding": {
+            "number": [
+              20,
+              10,
+              0,
+              10
+            ],
+            "unit": "px"
+          },
+          "justifyContent": "flex-start",
+          "alignItems": "stretch"
+        }
+      },
+      "id": "widget_4",
+      "layouts": {
+        "DEFAULT": {
+          "LARGE": "layout_2"
+        }
+      }
+    },
+    "widget_9": {
+      "uri": "widgets/common/text/",
+      "version": "1.20.0",
+      "label": "Text 3",
+      "config": {
+        "text": "<p style=\"text-align: center;\"><strong style=\"color: var(--ref-palette-neutral-1100); font-family: Montserrat; font-size: 25px;\">Tidal Health Floor Plans</strong></p>",
+        "style": {
+          "wrap": true,
+          "color": "var(--ref-palette-neutral-1100)"
+        }
+      },
+      "id": "widget_9"
+    },
+    "widget_10": {
+      "uri": "widgets/layout/column/",
+      "version": "1.20.0",
+      "label": "Column",
+      "config": {
+        "space": 10,
+        "style": {
+          "padding": {
+            "space": [
+              10
+            ],
+            "unit": "px"
+          },
+          "justifyContent": "center",
+          "alignItems": "stretch"
+        }
+      },
+      "id": "widget_10",
+      "layouts": {
+        "DEFAULT": {
+          "SMALL": "layout_7"
+        }
+      }
+    },
+    "widget_11": {
+      "uri": "widgets/common/text/",
+      "version": "1.20.0",
+      "label": "Text 4",
+      "config": {
+        "text": "<p style=\"text-align: center;\"><strong style=\"color: var(--ref-palette-neutral-1100); font-family: Montserrat; font-size: 18px; text-shadow: rgba(0, 0, 0, 0.5) 0px 0px 6px;\">Tidal Health Floor Plans</strong></p>",
+        "style": {
+          "wrap": true,
+          "color": "var(--ref-palette-neutral-1100)"
+        }
+      },
+      "id": "widget_11",
+      "style": {
+        "background": {
+          "color": "rgba(229,226,225,0.84)",
+          "fillType": "fill",
+          "image": {
+            "url": ""
+          }
+        },
+        "textColor": "#1c1b1b",
+        "boxShadow": {
+          "presetStyle": "shadow-3"
+        }
+      }
+    },
+    "widget_13": {
+      "uri": "widgets/common/text/",
+      "version": "1.20.0",
+      "label": "Text 5",
+      "config": {
+        "text": "<p style=\"text-align: center;\"><strong style=\"color: var(--ref-palette-neutral-1100); font-family: Montserrat; font-size: 25px;\">Tidal Health Floor Plans</strong></p>",
+        "style": {
+          "wrap": true,
+          "color": "var(--ref-palette-neutral-1100)"
+        }
+      },
+      "id": "widget_13",
+      "style": {
+        "background": {
+          "color": "rgba(229,226,225,0.84)",
+          "fillType": "fill",
+          "image": {
+            "url": ""
+          }
+        },
+        "textColor": "#1c1b1b",
+        "boxShadow": {
+          "presetStyle": "shadow-3"
+        }
+      }
+    }
+  },
+  "widgetsManifest": {},
+  "views": {},
+  "sections": {},
+  "dialogs": {},
+  "messageConfigs": {},
+  "attributes": {
+    "portalUrl": "https://Salisbury.maps.arcgis.com",
+    "isWebTier": false,
+    "clientId": "",
+    "express": false,
+    "title": "Tidal Health Viewer",
+    "description": "",
+    "type": "Web Experience",
+    "thumbnail": null
+  },
+  "timestamp": 1787163139338,
+  "sharedThemeVariables": {
+    "header": {
+      "bg": "#0071ba",
+      "color": "#ffffff"
+    },
+    "body": {
+      "bg": "#f7f7f7",
+      "color": "#000000",
+      "link": "#0e47e3"
+    },
+    "button": {
+      "bg": "#000000",
+      "color": "#ffffff"
+    }
+  },
+  "mainLocale": "en",
+  "dataSources": {
+    "dataSource_1": {
+      "id": "dataSource_1",
+      "type": "WEB_MAP",
+      "sourceLabel": "Tidal Health Floor Plans Basemap",
+      "itemId": "a94455c02e494587b3cf53367ff4b067",
+      "portalUrl": "https://Salisbury.maps.arcgis.com"
+    }
+  },
+  "pageStructure": [
+    {
+      "page_0": []
+    }
+  ],
+  "customTheme": {},
+  "customThemeOptions": {
+    "sys": {
+      "typography": {
+        "h1": {
+          "fontFamily": "Montserrat"
+        },
+        "h2": {
+          "fontFamily": "Montserrat"
+        },
+        "h3": {
+          "fontFamily": "Montserrat"
+        },
+        "h4": {
+          "fontFamily": "Montserrat"
+        },
+        "h5": {
+          "fontFamily": "Montserrat"
+        },
+        "h6": {
+          "fontFamily": "Montserrat"
+        }
+      }
+    },
+    "ref": {
+      "typeface": {
+        "customFonts": [
+          {
+            "name": "Montserrat",
+            "url": "https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900"
+          }
+        ]
+      }
+    }
+  },
+  "header": {
+    "layout": {
+      "LARGE": "layout_3"
+    },
+    "height": {
+      "LARGE": 75
+    }
+  },
+  "publishTimestamp": 1787164429781
+}
